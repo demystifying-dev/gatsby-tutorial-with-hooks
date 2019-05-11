@@ -1,3 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 
-export default () => <div>Hello world!</div>
+const home = () => {
+  const [titulo] = useState('Hello hook world!')
+  return (
+    <div>{titulo}</div>
+  )
+}
+
+export default home
