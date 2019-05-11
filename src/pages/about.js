@@ -6,9 +6,8 @@ const about = () => {
   const [subTitle] = useState('Gatsby Likes Hooks')
   return (
     <div style={{ color: `purple` }}>
-      <Header />
-      <h2>{title}</h2>
-      <h3>{subTitle}</h3>
+      <Header headerText={title}/>
+      <Header headerText={subTitle}/>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
     </div>
   )
