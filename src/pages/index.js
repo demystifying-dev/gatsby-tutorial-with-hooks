@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 
 const home = () => {
-  const [titulo] = useState('Hello hook world!')
+  const [titulo] = useState('Hello Gatsby Hook World!')
   return (
-    <div>{titulo}</div>
+    <div style={{ color: `purple`, fontSize: `72px` }}>{titulo}</div>
   )
 }
 
