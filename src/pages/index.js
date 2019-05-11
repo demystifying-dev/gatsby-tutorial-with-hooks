@@ -1,9 +1,13 @@
 import React, { useState } from "react"
 
 const home = () => {
-  const [titulo] = useState('Hello Gatsby Hook World!')
+  const [title] = useState('Hello Gatsby Hook World!')
+  const [subTitle] = useState('Gatsby Meets Hooks')
   return (
-    <div style={{ color: `purple`, fontSize: `72px` }}>{titulo}</div>
+    <div style={{ color: `purple` }}>
+      <h2>{title}</h2>
+      <h3>{subTitle}</h3>
+    </div>
   )
 }
 
