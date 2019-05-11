@@ -3,13 +3,12 @@ import { Link } from "gatsby"
 import Header from "../components/header"
 
 const home = () => {
-  const [title] = useState('Hello Gatsby Hook World!')
-  const [subTitle] = useState('Gatsby Meets Hooks')
+  const [title] = useState('Contact')
   return (
     <div style={{ color: `purple` }}>
-      <Link to="/contact/">Contact</Link> 
+      <Link to="/">Home</Link> 
       <Header headerText={title}/>
-      <Header headerText={subTitle}/>
+      <p>Send us a message!</p>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
     </div>
   )
