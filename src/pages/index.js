@@ -7,6 +7,7 @@ const home = () => {
     <div style={{ color: `purple` }}>
       <h2>{title}</h2>
       <h3>{subTitle}</h3>
+      <img src="https://source.unsplash.com/random/400x200" alt="" />
     </div>
   )
 }
