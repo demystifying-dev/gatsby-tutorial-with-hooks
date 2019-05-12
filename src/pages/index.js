@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 
 const home = () => {
@@ -7,7 +6,6 @@ const home = () => {
   const [subTitle] = useState('Gatsby Meets Hooks')
   return (
     <div style={{ color: `purple` }}>
-      <Link to="/contact/">Contact</Link> 
       <Header headerText={title}/>
       <Header headerText={subTitle}/>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
