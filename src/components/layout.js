@@ -4,8 +4,6 @@ import { Link } from "gatsby"
 
 import { rhythm } from "../utils/typography"
 
-
-
 const Layout = ({ children }) => (
   <div
     css={css`
