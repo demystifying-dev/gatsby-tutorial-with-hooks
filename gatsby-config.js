@@ -9,6 +9,7 @@ module.exports = {
     title: `Pandas Eating Lots`,
   },
   plugins: [
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
