@@ -2,13 +2,14 @@ import React, { useState } from "react"
 import Header from "../components/header"
 
 const home = () => {
-  const [title] = useState('Hello Gatsby Hook World!')
-  const [subTitle] = useState('Gatsby Meets Hooks')
+  const [title] = useState("Hi! I'm building a fake Gatsby site as part of a tutorial!")
   return (
-    <div style={{ color: `purple` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 600, color: `purple` }}>
       <Header headerText={title}/>
-      <Header headerText={subTitle}/>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+      <img src="https://source.unsplash.com/random/1920x1080" alt="" />
+      <p>
+        What do I like to do? Lots of course but definitely enjoy building websites.
+      </p>
     </div>
   )
 }
